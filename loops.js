@@ -23,24 +23,18 @@ function whileLoop(n) {
   return 'done'
 }
 
-// let i = 0;
-//
-// function incrementVariable() {
-//   i = i + 1;
-//   return i;
-// }
+let i = 0;
+
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
 
 
 function doWhileLoop(num) {
-  let num = 0;
-
-  function incrementVariable() {
-    num = num + 1;
-    return num;
-  }
 
   do {
     console.log("I run once regardless.");
     //stuff
-  } while (incrementVariable() < num )
+  } while (incrementVariable() < num)
 }
